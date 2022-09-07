@@ -332,3 +332,35 @@ footer a {
     }
 }
 
+@media screen and (min-width:500px) {
+    header div {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #container-aside {
+        display: flex;
+        justify-content: space-around;
+        background-color: transparent;
+        border: 0px;
+        padding: 0px;
+    }
+    #container-aside div {
+        margin: 10px;
+    }
+}
+
+@media screen and (min-width:800px) {
+    main {
+        display: flex;      
+    }
+    #container-aside {
+        flex-direction: column;
+    }
+    main article {
+        max-width: 70%
+    }
+    main aside {
+        min-width: 37%;
+    }
+}
