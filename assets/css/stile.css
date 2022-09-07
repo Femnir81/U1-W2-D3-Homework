@@ -332,6 +332,11 @@ footer a {
     }
 }
 
+#container-aside {
+    background-color: transparent;
+    border: 0px;
+}
+
 @media screen and (min-width:500px) {
     header div {
         display: flex;
